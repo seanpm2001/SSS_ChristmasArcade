@@ -32,6 +32,28 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
+# ActionScript source file
+# Previously, it was recognizing as AngelScript, which fit a lot better. I unfortunately had to correct this, as it wasn't accurate.
+*.as linguist-detectable=true
+*.as linguist-documentation=false
+*.as linguist-language=ActionSript
+# GDScript source file
+*.gd linguist-detectable=true
+*.gd linguist-documentation=false
+*.gd linguist-language=GDScript
+# Python source file
+*.py linguist-detectable=true
+*.py linguist-documentation=false
+*.py linguist-language=Python
+*.py3 linguist-detectable=true
+*.py3 linguist-documentation=false
+*.py3 linguist-language=Python
+*.pyt linguist-detectable=true
+*.pyt linguist-documentation=false
+*.pyt linguist-language=Python
+*.pyw linguist-detectable=true
+*.pyw linguist-documentation=false
+*.pyw linguist-language=Python
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -164,7 +186,7 @@
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2022, Saturday, November 5th at 4:12 pm PST)
+# Line count (including blank lines and compiler line): 193
 # End of script
